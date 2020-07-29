@@ -26,11 +26,9 @@
 
 ## Layout
 
-  
+<p align="center">
 <img width="600" height="550" alt="Darkmode" src="./screenshot/dark.png">
 <img width="600" height="550" alt="Lighmode" src="./screenshot/light.png">
-
-<p align="center">
 <img width="600" height="550" alt="Lighmode" src="https://media.giphy.com/media/W2KIfPuTMn9M66CVVJ/giphy.gif">
 </p>
 
