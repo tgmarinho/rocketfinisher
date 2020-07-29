@@ -3,10 +3,8 @@
    🚀 <a href="#"> RocketFinisher </a>
 </h1>
 
-<h3 align="center">
-  Sample todo list app to learn [Recoil](https://recoiljs.org/). 
-  It's a fork from [jacques-blom](https://github.com/jacques-blom/recoil-todo-list)
-</h3>
+### Sample todo list app to learn [Recoil](https://recoiljs.org/). 
+### It's a fork from [jacques-blom](https://github.com/jacques-blom/recoil-todo-list)
 
 
 <h4 align="center"> 
