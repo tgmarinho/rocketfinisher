@@ -2,7 +2,7 @@ import React from 'react'
 import {ThemeProvider, GlobalStyles} from './styles/theme'
 import {useRecoilValue} from 'recoil'
 import Home from './pages/Home'
-import {darkModeState} from './components/Header'
+import {darkModeState} from './atoms'
 
 const App = () => {
     const darkMode = useRecoilValue(darkModeState)

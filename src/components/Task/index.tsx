@@ -1,20 +1,11 @@
 import React from 'react'
 import checkIconSvg from '../../assets/rocket.svg'
-import {atomFamily, useRecoilState} from 'recoil'
+import {useRecoilState} from 'recoil'
 import {Container, Check, CheckIcon, UpdateTaskInput} from './styles'
-
-export const taskState = atomFamily({
-    key: 'task',
-    default: {
-        label: '',
-        complete: false,
-    },
-})
+import {taskState} from '../../atoms'
 
 export const Task: React.FC<{id: number}> = ({id}) => {
     const [task, setTask] = useRecoilState(taskState(id))
-
-    console.log(task)
 
     return (
         <Container onClick={() => {}}>

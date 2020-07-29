@@ -1,14 +1,10 @@
 import React from 'react'
 import {Heading} from '../Heading'
 import {Switch} from '../Switch'
-import {atom, useRecoilState} from 'recoil'
+import {useRecoilState} from 'recoil'
+import {darkModeState} from '../../atoms'
 
 import {Container} from './styles'
-
-export const darkModeState = atom({
-    key: 'darkMode',
-    default: true,
-})
 
 export const Header: React.FC = () => {
     const [darkMode, setDarkMode] = useRecoilState(darkModeState)

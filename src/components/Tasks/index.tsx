@@ -1,11 +1,7 @@
 import React from 'react'
 import {Task} from '../Task'
-import {atom, useRecoilValue} from 'recoil'
-
-export const tasksState = atom<number[]>({
-    key: 'tasks',
-    default: [],
-})
+import {useRecoilValue} from 'recoil'
+import {tasksState} from '../../atoms'
 
 export const Tasks: React.FC = () => {
     const tasks = useRecoilValue(tasksState)

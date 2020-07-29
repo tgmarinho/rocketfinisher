@@ -1,7 +1,6 @@
 import React from 'react'
 import {selector, useRecoilValue} from 'recoil'
-import {tasksState} from '../Tasks'
-import {taskState} from '../Task'
+import {taskState, tasksState} from '../../atoms'
 
 import {Container, Divider, StatContainer, StatValue, StatLabel} from './styles'
 

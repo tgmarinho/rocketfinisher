@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
 import {InsertInput} from './styles'
 import {useRecoilState, useRecoilCallback} from 'recoil'
-import {tasksState} from '../Tasks'
+import {ITask, taskState, tasksState} from '../../atoms'
 import {Container as TaskContainer} from '../Task/styles'
-import {taskState} from '../Task'
 
 export const Input: React.FC = () => {
     const [label, setLabel] = useState('')
